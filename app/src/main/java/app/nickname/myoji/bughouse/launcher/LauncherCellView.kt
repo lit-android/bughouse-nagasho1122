@@ -3,6 +3,7 @@ package app.nickname.myoji.bughouse.launcher
 import android.content.Context
 import android.content.res.Resources
 import android.os.Build
+import android.provider.Settings.Global.getString
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.LayoutInflater
@@ -10,7 +11,8 @@ import android.view.View
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import app.nickname.myoji.bughouse.R
+
+
 
 class LauncherCellView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) :
     ConstraintLayout(context, attrs, defStyleAttr) {

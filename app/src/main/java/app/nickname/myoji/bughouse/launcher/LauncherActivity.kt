@@ -3,9 +3,9 @@ package app.nickname.myoji.bughouse.launcher
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+
 import app.nickname.myoji.bughouse.count.CountActivity
 import app.nickname.myoji.bughouse.load.LoadActivity
-import app.nickname.myoji.bughouse.R
 import app.nickname.myoji.bughouse.save.SaveActivity
 
 class LauncherActivity : AppCompatActivity() {

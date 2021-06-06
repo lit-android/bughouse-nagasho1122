@@ -4,7 +4,8 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import app.nickname.myoji.bughouse.R
+import app.nickname.myoji.bughouse.launcher.R
+
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
