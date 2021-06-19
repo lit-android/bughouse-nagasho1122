@@ -3,7 +3,7 @@ package app.nickname.myoji.bughouse.load
 import android.content.Context
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import app.nickname.myoji.bughouse.R
+import app.nickname.myoji.bughouse.launcher.R
 
 class LoadActivity : AppCompatActivity() {
 

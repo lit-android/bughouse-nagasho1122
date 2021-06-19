@@ -7,10 +7,11 @@ import android.widget.Button
 import android.widget.EditText
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import app.nickname.myoji.bughouse.R
+import app.nickname.myoji.bughouse.launcher.R
+
 
 class ListActivity : AppCompatActivity() {
-    private val taskList: List<Task> = listOf(
+    private val taskList = mutableListOf(
         Task("Task 1"),
         Task("Task 2"),
         Task("Task 3")

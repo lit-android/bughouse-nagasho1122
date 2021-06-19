@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import app.nickname.myoji.bughouse.R
+import app.nickname.myoji.bughouse.launcher.R
 
 class TaskAdapter(
     private val context: Context,

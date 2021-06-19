@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import app.nagasyo.nagase.bughouse.R
+import app.nickname.myoji.bughouse.launcher.R
 
 class CountActivity : AppCompatActivity() {
     var number: Int = 0
