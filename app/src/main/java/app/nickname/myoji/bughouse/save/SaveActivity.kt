@@ -10,15 +10,17 @@ import app.nickname.myoji.bughouse.launcher.R
 class SaveActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_load)
+        setContentView(R.layout.activity_save)
 
-        val input: EditText = findViewById(R.id.input)
-        val saveButton: Button = findViewById(R.id.save_button)
+        val input: EditText? = findViewById(R.id.input)
+        val saveButton: Button? = findViewById(R.id.save_button)
         val sharedPreferences = getSharedPreferences("Second", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
-        saveButton.setOnClickListener {
-            val text = input.text
-            editor.putString("SAVE", text.toString())
+        val savedText=sharedPreferences.getString("SAVE","")
+        input?.setText(savedText)
+        saveButton?.setOnClickListener {
+            val text = input?.text
+            editor.putString("SAVE", text.toString()).apply()
         }
     }
 }
