@@ -6,6 +6,7 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import app.nickname.myoji.bughouse.count.CountActivity
+import app.nickname.myoji.bughouse.launcher.R
 import app.nickname.myoji.bughouse.matchers.withFontSize
 import org.hamcrest.Matchers
 import org.junit.Rule

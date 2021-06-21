@@ -10,6 +10,7 @@ import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
 import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import app.nickname.myoji.bughouse.launcher.R
 import app.nickname.myoji.bughouse.list.ListActivity
 import app.nickname.myoji.bughouse.list.TaskAdapter
 import org.hamcrest.CoreMatchers.allOf

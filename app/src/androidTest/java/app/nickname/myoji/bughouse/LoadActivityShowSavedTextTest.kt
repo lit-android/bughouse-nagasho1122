@@ -9,6 +9,7 @@ import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import app.nickname.myoji.bughouse.launcher.R
 import app.nickname.myoji.bughouse.load.LoadActivity
 import app.nickname.myoji.bughouse.save.SaveActivity
 import org.junit.Rule
