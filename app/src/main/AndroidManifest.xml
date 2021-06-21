@@ -21,6 +21,7 @@
         <activity android:name="app.nickname.myoji.bughouse.load.LoadActivity"/>
         <activity android:name="app.nickname.myoji.bughouse.save.SaveActivity"/>
         <activity android:name="app.nickname.myoji.bughouse.list.ListActivity"/>
+        <activity android:name="app.nickname.myoji.bughouse.list.DetailActivity"/>
     </application>
 
 </manifest>
